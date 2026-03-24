@@ -1,7 +1,7 @@
 # Horizon Time
 
 Horizon Time is a single-page JavaScript dashboard for:
-|live clock and world clocks
+- live clock and world clocks
 - weather lookup
 - prayer times by location or city
 - Gregorian and Hijri calendars
