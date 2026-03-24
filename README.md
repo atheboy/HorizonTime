@@ -1,5 +1,9 @@
 # Horizon Time
 
+![Plain JavaScript](https://img.shields.io/badge/stack-plain%20JavaScript-f7df1e?logo=javascript&logoColor=111827)
+![Local Server](https://img.shields.io/badge/server-Node.js-339933?logo=node.js&logoColor=white)
+![Status](https://img.shields.io/badge/status-ready%20to%20run-10b981)
+
 Horizon Time is a single-page JavaScript dashboard for:
 - live clock and world clocks
 - weather lookup
@@ -14,6 +18,15 @@ Horizon Time is a single-page JavaScript dashboard for:
 - `index.html`: app shell and styles
 - `app.js`: app logic
 - `server.cjs`: tiny local static server for running the app over HTTP
+
+## Highlights
+
+- Clean dark and light themes with local persistence
+- Gregorian calendar with Hijri day overlays
+- Dedicated Hijri calendar view with month navigation
+- Weather via Open-Meteo
+- Prayer times via AlAdhan
+- Stopwatch, timer, alarms, and export support
 
 ## Run Locally
 
