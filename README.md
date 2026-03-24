@@ -28,20 +28,39 @@ Horizon Time is a single-page JavaScript dashboard for:
 - Prayer times via AlAdhan
 - Stopwatch, timer, alarms, and export support
 
-## Run Locally
+## Quick Start
 
-1. Make sure Node.js is installed.
-2. From the project folder, run:
+### Requirements
+
+- Node.js installed on your machine
+- A modern browser such as Edge, Chrome, or Firefox
+
+### Run the app locally
+
+1. Open a terminal in the project folder.
+2. Start the local server:
 
 ```powershell
 node .\server.cjs
 ```
 
-3. Open:
+3. Open this URL in your browser:
 
 ```text
 http://127.0.0.1:4173
 ```
+
+4. Keep the terminal open while using the app.
+
+### Stop the app
+
+- Press `Ctrl + C` in the terminal where the server is running.
+
+### Troubleshooting
+
+- If the page does not refresh after changes, reload the browser manually.
+- If port `4173` is already in use, stop the existing process using that port and start the server again.
+- Some features such as weather, prayer times, and geolocation depend on your browser allowing network and location access.
 
 ## Notes
 
